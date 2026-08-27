@@ -12,6 +12,9 @@ Este proyecto está creado para comenzar en el mundo de python 3.12 con poetry
 - Poetry >= 2.4.1
 
 ## Instalación
+dentro del entorno virtual ejecutar  `pip install poetry`
+ Para isntalar todo lo necesario y no uno a uno `poetry add --group dev black isort ruff pre-commit`
+>dentro del entorno virtual ejecutar `poetry add --group dev black` es para uno a uno facilita el comando anterior
 
 
 
@@ -22,7 +25,7 @@ poetry install
 ```
 
 ### Activar el entorno virtual
-
+ejecutar en la terminal `env\Scripts\activate`  
 ```bash
 poetry shell
 ```
@@ -30,6 +33,12 @@ poetry shell
 > Alternativamente, puedes ejecutar los comandos con `poetry run`.
 
 ## Uso
+Ejecución de Black para un archivo `poetry run black src/mi_proyecto/main.py`
+Todo el proyecto `poetry run black .`
+Ejecución de iSort `isort .`
+Comando para correción automatica `ruff check . --fix`
+Ejecución de Pre-Commit `isort .`
+Comando para correción automatica `ruff check . --fix`
 
 Ejemplo de ejecución:
 
