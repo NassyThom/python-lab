@@ -4,7 +4,7 @@ Este proyecto está creado para comenzar en el mundo de python 3.12 con poetry
 
 ## Características
 - Probando Git flow release v1.0.0
-
+- Probando git flow hotfix v1.0.1
 
 ## Requisitos
 
